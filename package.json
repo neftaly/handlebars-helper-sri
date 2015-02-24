@@ -1,0 +1,36 @@
+{
+  "name": "handlebars-helper-sri",
+  "version": "0.0.0",
+  "description": "Sub-resource integrity in Handlebars",
+  "author": {
+    "name": "Neftaly Hernandez",
+    "email": "neftaly.hernandez@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neftaly/handlebars-helper-sri.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "subresource": "0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "keywords": [
+    "handlebars helper",
+    "handlebars-helper-sri",
+    "sri",
+    "sub resource",
+    "sub-resource",
+    "subresource",
+    "srihash.org",
+    "integrity",
+    "helper"
+  ]
+}
