@@ -1,4 +1,4 @@
-# handlebars-helper-sri
+# handlebars-helper-sri [![Build Status](https://travis-ci.org/neftaly/handlebars-helper-sri.svg?branch=master)](https://travis-ci.org/neftaly/handlebars-helper-sri)
 
 Install
 -------
