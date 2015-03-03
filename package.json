@@ -1,6 +1,6 @@
 {
   "name": "handlebars-helper-sri",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Sub-resource integrity in Handlebars",
   "author": {
     "name": "Neftaly Hernandez",
