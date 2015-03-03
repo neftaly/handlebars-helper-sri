@@ -1,6 +1,6 @@
 {
   "name": "handlebars-helper-sri",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Sub-resource integrity in Handlebars",
   "author": {
     "name": "Neftaly Hernandez",
@@ -15,9 +15,12 @@
       "type": "MIT"
     }
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "main": "./index.js",
   "dependencies": {
-    "subresource": "0.0.0"
+    "subresource": "0.0.2"
   },
   "devDependencies": {
     "handlebars": "^3.0.0",
