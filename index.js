@@ -5,12 +5,13 @@
 
 "use strict";
 
-module.exports.register = function (Handlebars, subresource) {
+module.exports.register = function (Handlebars, subresource, options) {
     subresource = subresource || require("subresource");
+    options = options || { algorithms: ["sha256"] };
 
     // Varidac function
     Handlebars.registerHelper("sri", function (filePath) {
-        var resource = subresource(filePath);
+        var resource = subresource(filePath, options);
 
         // Default to integrity.
         // Handlebars will attach an object as the last argument - ignore it!
